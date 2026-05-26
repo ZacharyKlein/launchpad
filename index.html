@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A personal launchpad for web apps, projects, and experiments."
+    >
+    <title>Launchpad</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <p class="eyebrow">Web app launcher</p>
+          <h1 id="page-title">Launchpad</h1>
+          <p>
+            A central place for projects that are live now, in progress, or
+            waiting their turn on the workbench.
+          </p>
+        </div>
+        <div class="status-panel" aria-label="Launcher summary">
+          <span class="status-panel__number" id="app-count">1</span>
+          <span class="status-panel__label" id="app-count-label">available app</span>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Launcher tools">
+        <label class="search">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="m21 21-4.3-4.3m1.3-5.2a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"></path>
+          </svg>
+          <span class="sr-only">Search apps</span>
+          <input id="search" type="search" placeholder="Search apps">
+        </label>
+      </section>
+
+      <section>
+        <div class="app-grid" id="app-grid" aria-live="polite"></div>
+        <p class="empty-state" id="empty-state" hidden>No matching apps yet.</p>
+      </section>
+    </main>
+
+    <template id="app-card-template">
+      <article class="app-card">
+        <div class="app-card__topline">
+          <div class="app-icon" aria-hidden="true"></div>
+          <span class="app-status"></span>
+        </div>
+        <div class="app-card__body">
+          <h2></h2>
+          <p></p>
+        </div>
+        <div class="app-tags" aria-label="App tags"></div>
+        <a class="app-link" target="_blank" rel="noreferrer">
+          <span>Open app</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M7 17 17 7m0 0H9m8 0v8"></path>
+          </svg>
+        </a>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
