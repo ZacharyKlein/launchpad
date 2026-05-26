@@ -45,17 +45,22 @@
 
     <template id="app-card-template">
       <article class="app-card">
-        <div class="app-card__topline">
-          <div class="app-icon" aria-hidden="true"></div>
+        <div class="app-media">
+          <img class="app-preview" alt="" loading="lazy">
+          <div class="app-icon" aria-hidden="true">
+            <img class="app-favicon" alt="" loading="lazy">
+            <span class="app-initials"></span>
+          </div>
           <span class="app-status"></span>
         </div>
         <div class="app-card__body">
+          <p class="app-source"></p>
           <h2></h2>
           <p></p>
         </div>
         <div class="app-tags" aria-label="App tags"></div>
         <a class="app-link" target="_blank" rel="noreferrer">
-          <span>Open app</span>
+          <span>Open</span>
           <svg aria-hidden="true" viewBox="0 0 24 24">
             <path d="M7 17 17 7m0 0H9m8 0v8"></path>
           </svg>

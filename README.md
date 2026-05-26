@@ -4,21 +4,27 @@ A simple GitHub Pages launcher for web apps and project experiments.
 
 ## Add An App
 
-Edit the `apps` array in `script.js`:
+Edit `apps.json`:
 
-```js
+```json
 {
-  name: "Project Name",
-  description: "A short description of the app.",
-  url: "https://example.com",
-  status: "Live",
-  initials: "PN",
-  tags: ["Category", "Tool"],
-  colors: {
-    background: "#e4f5ed",
-    foreground: "#0a5f49",
-  },
+  "name": "Project Name",
+  "description": "A short description of the app.",
+  "url": "https://example.com",
+  "status": "Live",
+  "initials": "PN",
+  "tags": ["Category", "Tool"],
+  "colors": {
+    "background": "#e4f5ed",
+    "foreground": "#0a5f49"
+  }
 }
+```
+
+Then refresh the app's favicon and Open Graph metadata:
+
+```sh
+node tools/refresh-metadata.mjs
 ```
 
 ## Publish With GitHub Pages

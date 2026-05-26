@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Stoichiometrical",
+    "description": "A chemistry educational app for learning and practicing stoichiometry.",
+    "url": "https://stoichiometrical.onrender.com",
+    "status": "Live",
+    "initials": "St",
+    "tags": [
+      "Chemistry",
+      "Education",
+      "Stoichiometry"
+    ],
+    "colors": {
+      "background": "#e4f5ed",
+      "foreground": "#0a5f49"
+    },
+    "metadata": {
+      "title": "Stoichiometrical",
+      "description": "Practice stoichiometry problems with guided inputs, visual pathways, and step-by-step math.",
+      "siteName": "Stoichiometrical",
+      "image": "https://stoichiometrical.onrender.com/og-image.svg",
+      "imageAlt": "Stoichiometrical app preview showing visual stoichiometry conversions.",
+      "favicon": "https://stoichiometrical.onrender.com/favicon.svg",
+      "themeColor": "#2f8f67",
+      "fetchedAt": "2026-05-26T22:09:48.756Z"
+    }
+  }
+]
