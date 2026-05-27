@@ -24,5 +24,31 @@
       "themeColor": "#2f8f67",
       "fetchedAt": "2026-05-26T22:09:48.756Z"
     }
+  },
+  {
+    "name": "Ideal Gas Law Explorer",
+    "description": "An educational app for exploring relationships in the ideal gas law.",
+    "url": "https://zacharyklein.github.io/idea-gas-law-explorer/",
+    "status": "Live",
+    "initials": "IG",
+    "tags": [
+      "Chemistry",
+      "Education",
+      "Gas Laws"
+    ],
+    "colors": {
+      "background": "#e7f0ff",
+      "foreground": "#235c9f"
+    },
+    "metadata": {
+      "title": "Ideal Gas Law Explorer",
+      "description": "Explore how pressure, volume, temperature, and moles connect through PV = nRT.",
+      "siteName": "Ideal Gas Law Explorer",
+      "image": "https://zacharyklein.github.io/idea-gas-law-explorer/assets/og-image.png",
+      "imageAlt": "A colorful equation map connecting Boyle's, Charles', Gay-Lussac's, and Avogadro's laws to PV equals nRT.",
+      "favicon": "https://zacharyklein.github.io/idea-gas-law-explorer/assets/favicon.svg",
+      "themeColor": "#247b7b",
+      "fetchedAt": "2026-05-27T17:39:30.381Z"
+    }
   }
 ]
