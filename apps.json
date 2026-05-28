@@ -50,5 +50,26 @@
       "themeColor": "#247b7b",
       "fetchedAt": "2026-05-27T17:39:30.381Z"
     }
+  },
+  {
+    "name": "GeoJSONify Macro|Paleo",
+    "description": "A geospatial app for converting macrostratigraphy and paleontology data into GeoJSON.",
+    "url": "https://geojsonify.streamlit.app",
+    "status": "Live",
+    "initials": "GJ",
+    "tags": [
+      "Geospatial",
+      "Paleontology",
+      "GeoJSON"
+    ],
+    "colors": {
+      "background": "#e8f3f1",
+      "foreground": "#1f6f68"
+    },
+    "metadata": {
+      "title": "GeoJSONify Macro|Paleo",
+      "description": "Convert macrostratigraphy and paleontology data into GeoJSON.",
+      "siteName": "GeoJSONify Macro|Paleo"
+    }
   }
 ]
