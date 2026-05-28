@@ -71,5 +71,31 @@
       "description": "Convert macrostratigraphy and paleontology data into GeoJSON.",
       "siteName": "GeoJSONify Macro|Paleo"
     }
+  },
+  {
+    "name": "Kinetic Energy Explorer",
+    "description": "An educational app for exploring kinetic molecular theory and kinetic energy calculations.",
+    "url": "https://zacharyklein.github.io/kinetic-energy-explorer/",
+    "status": "Live",
+    "initials": "KE",
+    "tags": [
+      "Chemistry",
+      "Physics",
+      "Kinetic Energy"
+    ],
+    "colors": {
+      "background": "#e6f4f2",
+      "foreground": "#247b7b"
+    },
+    "metadata": {
+      "title": "Kinetic Energy Explorer",
+      "description": "An interactive classroom app for visualizing ideal gas molecules, kinetic energy equations, RMS speed, and step-by-step problem solving.",
+      "siteName": "Kinetic Energy Explorer",
+      "image": "https://zacharyklein.github.io/kinetic-energy-explorer/assets/social-preview.png",
+      "imageAlt": "Kinetic Energy Explorer app preview with gas molecules and kinetic energy equations.",
+      "favicon": "https://zacharyklein.github.io/kinetic-energy-explorer/assets/favicon.svg",
+      "themeColor": "#10262c",
+      "fetchedAt": "2026-05-28T05:28:21.000Z"
+    }
   }
 ]
